@@ -20,6 +20,11 @@ All of these libraries could be installed using [pip](https://pypi.python.org/py
 sudo -H pip install scikit theano keras numpy scipy matplotlib
 ```
 
+[Python-Tk](https://docs.python.org/2/library/tkinter.html) must be installed too, to render the GUI with python. To install it, just execute
+```
+sudo apt-get install python-tk
+```
+
 After installing them, we can run the experiments.
 
 ## Dataset
@@ -30,6 +35,11 @@ The total file size of the Food-11 dataset is about 1.16 GB.
 
 > Download it and put in the same directory of source-code.
 
+### AlexNet
+
+We modified a version of AlexNet, found on [Heuritech Github](https://github.com/heuritech/convnets-keras). Before use, the ImageNet weights must be [downloaded](http://files.heuritech.com/weights/alexnet_weights.h5).
+
+> Download the *weights* and put it on same directory of source-code.
 
 ## Running
 
@@ -45,11 +55,11 @@ The first two steps should be executed once. The third step comprises a set of e
 
 Just run the `build_dataset.py` script. In the script, **folder** variable chooses where to get images and **max_size** defines the amount of images used.
 
-An array in *numpy* format will be saved on **data** folder.
+An array in *numpy* format (trab2_dataset.npz) will be saved on **data** folder.
 
 ### Extracting features using pre-trained AlexNet
 
-Just run the `feature_extraction.py` script. Three numpy arrays will be created on **data** folder.
+Just run the `feature_extraction.py` script. Three numpy arrays will be created on **data** folder (trab2_conv1.npz, trab2_conv5.npz and trab2_dense2.npz).
 
 ### Running the experiments
 
