@@ -5,7 +5,7 @@ This is the source-code of technical report using the Food-11 dataset. In next s
 
 ## Prerequisites
 
-The experiments were built using **Python 2.7.12**, with some libraries: **scikit-learn, theano, keras, numpy, scipy and matplotlib**. It is required to install these libraries to run the code.
+The experiments were built using **Python 2.7.12**, with some libraries: **scikit-learn, theano, keras, numpy, scipy,  matplotlib, Pillow and h5py**. It is required to install these libraries to run the code.
 
 * [scikit-learn](http://scikit-learn.org/stable/) - Machine Learning library for Python
 * [Theano](http://deeplearning.net/software/theano/) - Deep Learning toolkit
@@ -14,11 +14,12 @@ The experiments were built using **Python 2.7.12**, with some libraries: **sciki
 * [scipy](https://www.scipy.org/) -  Ecosystem of open-source software for mathematics, science, and engineering
 * [matplotlib](http://matplotlib.org/) - 2D plotting library
 * [Pillow](https://github.com/python-pillow/Pillow) - Python Image Library Fork
+* [h5py](http://www.h5py.org/) - HDF5 for Python
 
 All of these libraries could be installed using [pip](https://pypi.python.org/pypi/pip) (Python Package Index).
 
 ```
-sudo -H pip install scikit theano keras numpy scipy matplotlib Pillow
+sudo -H pip install scikit theano keras numpy scipy matplotlib Pillow h5py
 ```
 
 [Python-Tk](https://docs.python.org/2/library/tkinter.html) must be installed too, to render the GUI with python. To install it, just execute
