@@ -13,11 +13,12 @@ The experiments were built using **Python 2.7.12**, with some libraries: **sciki
 * [numpy](http://www.numpy.org/) - Scientific computing library for Python
 * [scipy](https://www.scipy.org/) -  Ecosystem of open-source software for mathematics, science, and engineering
 * [matplotlib](http://matplotlib.org/) - 2D plotting library
+* [Pillow](https://github.com/python-pillow/Pillow) - Python Image Library Fork
 
 All of these libraries could be installed using [pip](https://pypi.python.org/pypi/pip) (Python Package Index).
 
 ```
-sudo -H pip install scikit theano keras numpy scipy matplotlib
+sudo -H pip install scikit theano keras numpy scipy matplotlib Pillow
 ```
 
 [Python-Tk](https://docs.python.org/2/library/tkinter.html) must be installed too, to render the GUI with python. To install it, just execute
@@ -37,9 +38,9 @@ The total file size of the Food-11 dataset is about 1.16 GB.
 
 ### AlexNet
 
-We modified a version of AlexNet, found on [Heuritech Github](https://github.com/heuritech/convnets-keras). Before use, the ImageNet weights must be [downloaded](http://files.heuritech.com/weights/alexnet_weights.h5).
+We modified a TensorFlow version of AlexNet, found on [Heuritech Github](https://github.com/heuritech/convnets-keras). To the feature extraction work, the ImageNet weights must be [downloaded](http://files.heuritech.com/weights/alexnet_weights.h5).
 
-> Download the *weights* and put it on same directory of source-code.
+> Put it on same directory of source-code.
 
 ## Running
 
@@ -76,3 +77,4 @@ Three experiments are available:
 * **Caio C. V. da Silva**
 * **Jéssica Soares**
 * **Sérgio J. de Sousa**
+
