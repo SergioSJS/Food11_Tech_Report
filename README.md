@@ -2,6 +2,13 @@
 
 This is the source-code of technical report using the Food-11 dataset. In next steps, all necessary information to perform the experiments will be presented.
 
+## Authors
+
+* **Alan C. Neves**
+* **Caio C. V. da Silva**
+* **Jéssica Soares**
+* **Sérgio J. de Sousa**
+
 
 ## Prerequisites
 
@@ -71,11 +78,13 @@ Three experiments are available:
 * Early and Late Fusion: Classification using Early and late fusion approaches (`early_fusion_experiment.py` and `late_fusion_experiment.py`)
 * Ensemble: Diversity tests using Random Forest, Majority Vote and Bagging (`ensemble_experiment.py`)
 
+### Report file
 
-## Authors
+To see the final results and analysis check the report file:
+(File)[Technical_Report__Exploiting_Deep_Features_Diversity_in_Food_11_Classification.pdf]
 
-* **Alan C. Neves**
-* **Caio C. V. da Silva**
-* **Jéssica Soares**
-* **Sérgio J. de Sousa**
+### Conclusions
 
+The best deep representation level is the FC2, contain the most relevant features to classify. Early fusion and Late fusion can't better than only FC2 deep feature. Lastly the Bagging approach achieved the best results of all experiments executed. 
+
+The domain of food is hard to classify, even for humans. This happens due to similarity between food made with the same ingredients wich belongs to different classes. Even so the deep feature FC2 showed up a good option and the Bagging technique is the best model.
