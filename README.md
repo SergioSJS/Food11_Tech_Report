@@ -81,7 +81,7 @@ Three experiments are available:
 ### Report file
 
 To see the final results and analysis check the report file:
-(File)[Technical_Report__Exploiting_Deep_Features_Diversity_in_Food_11_Classification.pdf]
+[report.pdf](Technical_Report__Exploiting_Deep_Features_Diversity_in_Food_11_Classification.pdf)
 
 ### Conclusions
 
